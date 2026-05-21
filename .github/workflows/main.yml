@@ -31,4 +31,5 @@ jobs:
         REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
         REDDIT_PASSWORD: ${{ secrets.REDDIT_PASSWORD }}
+        REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }} 
       run: python main.py
